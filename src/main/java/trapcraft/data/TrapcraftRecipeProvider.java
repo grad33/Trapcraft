@@ -41,7 +41,7 @@ public class TrapcraftRecipeProvider extends RecipeProvider {
         ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, TrapcraftBlocks.GRASS_COVERING.get(), 1)
             .pattern("XXX")
             .pattern("YYY")
-            .define('X', Blocks.TALL_GRASS)
+            .define('X', Blocks.GRASS)
             .define('Y', Items.STICK)
             .unlockedBy("has_tall_grass", this.has(Blocks.TALL_GRASS))
             .save(consumer);
